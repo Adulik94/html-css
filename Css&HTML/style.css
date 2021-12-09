@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  body {
+    border-radius: 12px;
+    width: 367px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 3%), 0 7px 14px 0 rgb(0 0 0 / 15%);
+  }
+  /* ----- Header start ----- */
+  
+  .wrapper {
+    background-image: url('./img/bgimg.png');
+    height: 179px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .ava_view {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0 /22.62%) rgba(0,0,0/0.43) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .view_info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.69px;
+    color: #fff;
+    margin: 12px 12px 147px 22px;
+    text-align: right; 
+
+  }
+  
+  /* ----- end -----*/
+
+  
+  /* ----- Section start ----- */
+  
+  .headText {
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.78px;
+    color: #212121;
+    margin: 16px 30px 16px 16px;
+    text-align: left; 
+  }
+  
+  .formstyle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+    margin: 16px 75px 20px 16px;
+  }
+  
+  .inpstyle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    margin-left: 8px;
+  }
+  
+  .inpstyle::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+  }
+  
+  .bodypar {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9c9c9c;
+    margin: 0px 91px 4px 18px;
+  }
+  
+  .bodypar span {
+    line-height: 19.69px;
+    color: #73f49a;
+    font-weight: 600;
+    font-size: 14px;
+
+  }
+
+  progress {
+	display:block;
+  width: 335px;
+  height: 12px;
+  margin: 0 16px 24px 16px;
+	background-color:#F0F0F0;
+	border: 0;
+	border-radius:50px;
+	text-align: left;
+	position:relative;
+  font-family: Roboto;
+  font-size:15px;
+}
+
+progress::-webkit-progress-bar {
+	height:12px;
+	width:100%;
+	margin:0 0 0 0;
+	background-color:#F0F0F0;
+	border-radius:100px;
+}
+  
+progress.skill-2::-webkit-progress-value {
+	border: 0;
+  height: 12px;
+  border-radius: 20px;
+  background:#4CE77B  ;
+}
+
+  
+  /* ----- end -----*/
+
+  
+  /*------ Footer start ------ */
+  
+  .cardfooter {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    padding: 0 16px 16px;
+  }
+  
+  .item1 {
+    margin-left: 10px;
+  }
+
+  .item2 .item3 {
+    float: right;
+  }
+  
+  /* ----- end -----*/
+  
